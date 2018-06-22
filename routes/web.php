@@ -11,6 +11,8 @@
 |
 */
 
+Route::resource('/company','CompanyController');
+
 Route::get('/', function () {
     return view('welcome');
 });
